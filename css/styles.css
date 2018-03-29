@@ -27,7 +27,7 @@ p1 {
 
 #username :hover {
     text-decoration-color: blue;
-    color: whitesmoke;
+    color: red;
     cursor: pointer;
     font-size: 
 }
