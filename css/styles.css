@@ -1,0 +1,26 @@
+.head-container {
+    background-color: gold;
+}
+
+#header {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+p1 {
+    font-family: cursive;
+    font-size: 30px;
+    color: black;
+}
+
+#username :hover {
+    text-decoration-color: royalblue;
+    color: red;
+    cursor: pointer;
+}
+
+p3 {
+    color: darkblue;
+    font-size: large;
+}
