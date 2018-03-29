@@ -8,19 +8,31 @@
     font-size: 50px;
 }
 
-p1 {
-    font-family: cursive;
-    font-size: 30px;
+.side {
+    background-color: dimgray;
+    padding-bottom: 150px;
+}
+
+.side-header {
+    font-family: serif;
+    font-size: 5px;
     color: black;
 }
 
+p1 {
+    font-family: cursive;
+    font-size: 30px;
+    color: goldenrod;
+}
+
 #username :hover {
-    text-decoration-color: royalblue;
-    color: red;
+    text-decoration-color: blue;
+    color: whitesmoke;
     cursor: pointer;
+    font-size: 
 }
 
 p3 {
-    color: darkblue;
+    color: rgb(7, 234, 241);
     font-size: large;
 }
