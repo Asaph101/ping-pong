@@ -9,7 +9,7 @@
 }
 
 .side {
-    background-color: dimgray;
+    background-color: gold;
     padding-bottom: 150px;
 }
 
@@ -35,5 +35,9 @@ p1 {
 p3 {
     color: rgb(7, 234, 241);
     font-size: large;
+}
+
+#rules {
+    color: crimson;
 }
 
