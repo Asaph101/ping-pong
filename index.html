@@ -5,10 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Ping-Pong</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" </link>
-    <link rel="stylesheet" href="css/bootstrap.css"></link>
-    <script src="js/jquery-3.3.1.js"></script>
-    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css"></link>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css"></link>
+    
 <head>
 <body>
     <div class="head-container">
@@ -64,16 +63,23 @@
                     <li><strong>Numbers divisible by 3 and 5 become "pingpong".</strong></li>
                  </ul>
                </div>
-            <div id="number-slot">
+            <div id="text">
                <label><strong><em>Insert</em></strong> your number here:</p></label>
-               <input type="number" name="number" placeholder="Your number"></input>
-               <button type="button" class="btn btn-success">PINGPONG</button>
-            
             </div>
+            <div id="number-slot">
+              <form id="pingpongz">
+                <input id="number" type="number" name="number" placeholder="Your number"></input>
+                <button type="submit" class="btn btn-success" id="butt">PINGPONG</button>
+            </form>
+            </div>
+            <div id="ping-pong">
+                <ul class="ping"></ul> 
+            </div>  
             <div class="col-md-4">
             </div>
         </div>
     </div>
-         
+    <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>  
 </body>
 </html>
