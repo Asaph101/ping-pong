@@ -2,7 +2,7 @@
 
 function pingPong(ansWer){
    var thePingPongArray=[];
-   for (var i=0; i<ansWer; i+=1){
+   for (var i=1; i<=ansWer; i+=1){
 
 
 if (i%15===0){
