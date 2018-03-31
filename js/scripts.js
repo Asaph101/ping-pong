@@ -22,6 +22,7 @@ else {
 }
 return thePingPongArray
 }
+
 //user-interface
 
 $(document).ready(function(){
